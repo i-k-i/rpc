@@ -37,7 +37,7 @@
 import random
 
 
-def chstring(startchar=0,endchar=10000, n = 826):
+def chstring(startchar=0,endchar=10000, n=826):
     print startchar, endchar, endchar-startchar+1 
     strchar=''
     for i in xrange(n):
@@ -46,25 +46,15 @@ def chstring(startchar=0,endchar=10000, n = 826):
     return strchar
 
 print chstring(9482,9584)
-
 print chstring(5121,5191)
-
 print chstring(9622,9632)
-
 print chstring(9601,9615)
-
 print chstring(9617,9619)
-
 print chstring(9398,9450) # Ⓐ 
-
 print chstring(9776,9783) # ☴ 
-
 print chstring(9833,9836) # 9833 ♩ 9834 ♪ 9835 ♫ 9836 ♬
-
 print chstring(8866,8879) # 8866 ⊢ 8867 ⊣
-
 print chstring(9585,9587) #9585 ╱ 9586 ╲ 9587 ╳
-
 print chstring(9280,9284) #9280 ⑀ 9281 ⑁ 9282 ⑂ 9283 ⑃ 9284
 print chstring(9116,9134) #⎛ 9116 ⎜ 9117 ⎝ 9118 ⎞ 9119 ⎟ 9120 ⎠ 9121 ⎡ 9122 ⎢ 9123 ⎣ 9124 ⎤ 9125 ⎥ 9126 ⎦ 9127 ⎧ 9128 ⎨ 9129 ⎩ 9130 ⎪ 9131 ⎫ 9132 ⎬ 9133 ⎭ 9134 ⎮
 print chstring(10240,10495) #brail_ABC
